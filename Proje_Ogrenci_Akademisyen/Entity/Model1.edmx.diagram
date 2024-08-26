@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="684ea980e8ae47f8b1f41eb807ba54ed" Name="Diagram1">
+        <EntityTypeShape EntityType="OgrenciSinavModel.TblAkademisyen" Width="1.5" PointX="4.125" PointY="5.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="OgrenciSinavModel.TblBolum" Width="1.5" PointX="0.5" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="OgrenciSinavModel.TblDersler" Width="1.5" PointX="0.875" PointY="4.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="OgrenciSinavModel.TblOgrenci" Width="1.5" PointX="2.625" PointY="0.875" IsExpanded="true" />
+        <AssociationConnector Association="OgrenciSinavModel.FK_TblOgrenci_TblBolum" ManuallyRouted="false" />
+        <EntityTypeShape EntityType="OgrenciSinavModel.View_1" Width="1.5" PointX="0.75" PointY="6.75" />
+        <EntityTypeShape EntityType="OgrenciSinavModel.TblNotlar" Width="1.5" PointX="4.875" PointY="0.75" />
+        <AssociationConnector Association="OgrenciSinavModel.FK_TblNotlar_TblDersler" />
+        <AssociationConnector Association="OgrenciSinavModel.FK_TblNotlar_TblOgrenci" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
